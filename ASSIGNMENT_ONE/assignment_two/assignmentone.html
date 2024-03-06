@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>assignment one</title>
+  <style>
+    #myForm{
+      text-align: center;
+    }
+    body{
+      background-color: rgb(73, 238, 12);
+    }
+  </style>
+</head>
+<body>
+
+  <form id="myForm">
+    <h1>An html form that alerts the name"john"</h1>
+    <button type="submit">Submit form</button>
+  </form>
+
+  <script>
+    const person = {
+      firstName: "John",
+      lastName: "Doe"
+    };
+
+    document.getElementById('myForm').addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent default form submission
+      
+      alert(person.firstName); // Alert "John"
+    });
+  </script>
+
+</body>
+</html>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logging Input Value</title>
+  <style>
+    .bod{
+        text-align: center;
+        background-color: aliceblue;
+    }
+  </style>
+</head>
+<body class="bod">
+<h1> please type something, right click, and check the cosole tab</h1>
+  <input type="text" id="textInput" oninput="logInputValue(this.value)" placeholder="Type something...">
+
+  <script>
+    function logInputValue(value) {
+      console.log(value);
+    }
+  </script>
+
+</body>
+</html>

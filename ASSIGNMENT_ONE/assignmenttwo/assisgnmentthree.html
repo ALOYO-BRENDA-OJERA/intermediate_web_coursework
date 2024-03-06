@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mouseover Color Change</title>
+  <style>
+    /* CSS to change the background color to red */
+    .red-on-hover {
+      width: 200px;
+      height: 200px;
+      background-color: blue; /* Initial color */
+      transition: background-color 0.3s ease; /* Smooth transition */
+    }
+    .red-on-hover:hover {
+      background-color: red; /* Color on hover */
+      text-align: center;
+    }
+    .bod{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+  </style>
+</head>
+<body>
+<div class="bod">
+  <!-- <div> element that turns red on hover -->
+  <div class="red-on-hover"> A div class that turns red on hoover!!</div>
+</div>
+
+</body>
+</html>

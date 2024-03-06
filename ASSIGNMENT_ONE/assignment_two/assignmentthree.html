@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <style>
+
+    body{
+        background-color: antiquewhite;
+        text-align: center;
+    }
+  </style>
+</head>
+<body>
+<div class="boday">
+<h1>html code to alert name and age</h1>
+  <button onclick="createAndAlertPerson()">Tap to access Name and age</button>
+
+  <script>
+    function createAndAlertPerson() {
+      // Create person object
+      const person = {
+        name: "John",
+        age: 50
+      };
+
+      // Access the object and trigger an alert
+      alert(person.name + " is " + person.age);
+    }
+  </script>
+</div>
+</body>
+</html>
